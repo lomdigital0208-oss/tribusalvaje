@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribu Salvaje – Accesorios Outdoor y Aventura | Manizales, Colombia</title>
+
+  <!-- ============================================================ -->
+  <!-- ⚠️ AQUÍ VA TU META TAG DE VERIFICACIÓN DE META BUSINESS ⚠️ -->
+  <!-- REEMPLAZA LA LÍNEA DE ABAJO CON EL CÓDIGO QUE TE DA META    -->
+  <!-- ============================================================ -->
+  <meta name="facebook-domain-verification" content="REEMPLAZAR_ESTE_CODIGO_CON_EL_DE_META" />
+  <!-- ============================================================ -->
+
+  <!-- SEO META TAGS -->
+  <meta name="description" content="Tribu Salvaje es una marca de accesorios outdoor y de aventura en Manizales, Caldas. Mochilas, cantimploras, navajas, hamacas y bolsos impermeables para los amantes de la naturaleza.">
+  <meta name="keywords" content="accesorios outdoor Manizales, mochilas aventura, cantimploras Colombia, navajas multiuso, hamacas, bolsos impermeables, equipo camping">
+  <meta name="author" content="Tribu Salvaje">
+  <meta name="robots" content="index, follow">
+
+  <!-- OPEN GRAPH (Meta / Facebook / WhatsApp) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Tribu Salvaje">
+  <meta property="og:title" content="Tribu Salvaje – Accesorios Outdoor y Aventura">
+  <meta property="og:description" content="Equipo outdoor para amantes de la naturaleza: mochilas, cantimploras, hamacas y más, desde Manizales, Colombia.">
+  <meta property="og:url" content="https://tribusalvaje.store">
+  <meta property="og:image" content="https://tribusalvaje.store/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="es_CO">
+
+  <!-- TWITTER CARD -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tribu Salvaje – Accesorios Outdoor y Aventura">
+  <meta name="twitter:description" content="Equipo outdoor para amantes de la naturaleza desde Manizales, Colombia.">
+  <meta name="twitter:image" content="https://tribusalvaje.store/og-image.jpg">
+
+  <!-- CONTACT INFO PARA META BUSINESS -->
+  <meta name="contact" content="contacto@tribusalvaje.com">
+  <meta name="geo.region" content="CO-CAL">
+  <meta name="geo.placename" content="Manizales">
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: sans-serif; background: #f4f3ee; color: #1a1f15; }
+    .promo-bar { background: #4a5a32; color: #fff; text-align: center; padding: 8px 16px; font-size: 12px; letter-spacing: 0.5px; }
+    .header { background: #1a1f15; color: #fff; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; }
+    .header-logo { font-size: 20px; font-weight: 700; letter-spacing: 3px; color: #fff; }
+    .header-nav { display: flex; gap: 20px; }
+    .header-nav a { color: #b8c2a3; font-size: 13px; text-decoration: none; }
+    .header-nav a:hover { color: #fff; }
+    .banner { background: #0e110a; color: #fff; text-align: center; padding: 50px 20px; position: relative; overflow: hidden; }
+    .banner::before { content: ''; position: absolute; inset: 0; background: url('https://images.unsplash.com/photo-1551632811-561732d1e306?w=1200&q=60') center/cover no-repeat; opacity: 0.32; }
+    .banner h1 { font-size: 32px; font-weight: 700; margin-bottom: 10px; position: relative; letter-spacing: 1px; }
+    .banner p { font-size: 14px; color: #d4dcc0; max-width: 480px; margin: 0 auto 16px; position: relative; }
+    .banner-badge { display: inline-block; background: rgba(74,90,50,0.5); border: 1px solid rgba(255,255,255,0.4); color: #fff; font-size: 11px; padding: 4px 14px; border-radius: 20px; position: relative; letter-spacing: 1px; font-weight: 600; }
+    .about-bar { background: #e8ead6; border-left: 4px solid #4a5a32; padding: 16px 24px; margin: 24px; border-radius: 4px; font-size: 13px; color: #1a1f15; line-height: 1.6; }
+    .about-bar strong { font-weight: 600; }
+    .why-section { background: #fff; padding: 28px 24px; margin: 0 0 8px; }
+    .why-title { font-size: 11px; font-weight: 600; color: #999; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 20px; text-align: center; }
+    .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 16px; text-align: center; }
+    .why-item { padding: 8px; }
+    .why-icon { display: flex; justify-content: center; margin-bottom: 10px; }
+    .why-icon svg { width: 32px; height: 32px; }
+    .why-label { font-size: 13px; font-weight: 600; color: #1a1f15; margin-bottom: 4px; }
+    .why-desc { font-size: 11px; color: #888; line-height: 1.5; }
+    .section-title { font-size: 11px; font-weight: 600; color: #999; padding: 20px 24px 12px; text-transform: uppercase; letter-spacing: 1.5px; }
+    .product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 16px; padding: 0 24px 8px; }
+    .product-card { background: #fff; border-radius: 10px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.07); cursor: pointer; transition: transform 0.2s; }
+    .product-card:hover { transform: translateY(-3px); }
+    .product-img { width: 100%; aspect-ratio: 1; overflow: hidden; }
+    .product-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .product-info { padding: 10px 12px 14px; }
+    .product-name { font-size: 13px; font-weight: 600; margin-bottom: 4px; color: #1a1f15; }
+    .product-price { font-size: 12px; color: #4a5a32; font-weight: 500; }
+    .limited-badge { display: inline-block; background: #dde0c8; color: #4a5a32; font-size: 10px; padding: 2px 8px; border-radius: 10px; margin-top: 4px; font-weight: 700; }
+    .btn-wrap { text-align: center; padding: 20px 24px 28px; }
+    .btn-contact { background: #4a5a32; color: #fff; padding: 12px 32px; border-radius: 25px; font-size: 13px; border: none; cursor: pointer; letter-spacing: 0.5px; font-weight: 600; }
+    .btn-contact:hover { background: #353f23; }
+    .gallery-section { padding: 0 24px 28px; }
+    .gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 8px; }
+    .gallery-grid img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; display: block; }
+    .reviews-section { background: #fff; padding: 28px 24px; margin-bottom: 8px; }
+    .reviews-title { font-size: 11px; font-weight: 600; color: #999; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 20px; }
+    .reviews-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+    .review-card { background: #f4f3ee; border-radius: 10px; padding: 14px 16px; }
+    .review-stars { color: #b8852f; font-size: 13px; margin-bottom: 6px; }
+    .review-text { font-size: 12px; color: #555; line-height: 1.6; margin-bottom: 8px; }
+    .review-author { font-size: 11px; font-weight: 600; color: #4a5a32; }
+    .form-section { padding: 0 24px 28px; }
+    .form-box { background: #fff; border-radius: 12px; padding: 24px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+    .form-title { font-size: 15px; font-weight: 600; margin-bottom: 4px; color: #1a1f15; }
+    .form-sub { font-size: 12px; color: #888; margin-bottom: 18px; }
+    .form-row { margin-bottom: 12px; }
+    .form-row label { display: block; font-size: 11px; font-weight: 600; color: #666; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .form-row input, .form-row textarea { width: 100%; padding: 10px 12px; border: 1px solid #cdd0b3; border-radius: 8px; font-size: 13px; background: #f4f3ee; color: #1a1f15; outline: none; font-family: sans-serif; }
+    .form-row input:focus, .form-row textarea:focus { border-color: #4a5a32; }
+    .form-row textarea { height: 80px; resize: none; }
+    .btn-form { width: 100%; background: #4a5a32; color: #fff; padding: 12px; border-radius: 8px; font-size: 13px; border: none; cursor: pointer; font-weight: 700; letter-spacing: 0.5px; margin-top: 4px; }
+    .btn-form:hover { background: #353f23; }
+    .policy-section { background: #fff; padding: 28px 24px; margin: 0 0 8px; }
+    .policy-title { font-size: 11px; font-weight: 600; color: #999; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px; }
+    .policy-text { font-size: 12px; color: #555; line-height: 1.8; }
+    .policy-text p { margin-bottom: 10px; }
+    .policy-text strong { color: #1a1f15; }
+    .footer { background: #1a1f15; color: #9da588; text-align: center; padding: 28px 24px; font-size: 12px; }
+    .footer strong { color: #d4dcc0; font-size: 15px; letter-spacing: 3px; font-weight: 700; }
+    .footer-info { margin-top: 6px; font-size: 11px; }
+    .footer a { color: #b3bd9c; text-decoration: none; }
+    .footer-links { margin-top: 12px; display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
+    .footer-links a { color: #b3bd9c; font-size: 11px; text-decoration: underline; }
+    .footer-links a:hover { color: #fff; }
+    .whatsapp-btn { position: fixed; bottom: 24px; right: 24px; background: #25D366; color: #fff; width: 54px; height: 54px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(37,211,102,0.4); text-decoration: none; z-index: 999; transition: transform 0.2s; }
+    .whatsapp-btn:hover { transform: scale(1.08); }
+    .whatsapp-btn svg { width: 28px; height: 28px; fill: #fff; }
+  </style>
+</head>
+<body>
+
+  <div class="promo-bar">
+    🏕️ Envío gratis en pedidos mayores a $200.000 &nbsp;·&nbsp; Equipo outdoor para la próxima aventura
+  </div>
+
+  <div class="header">
+    <span class="header-logo">TRIBU SALVAJE</span>
+    <div class="header-nav">
+      <a href="#">Inicio</a>
+      <a href="#productos">Productos</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+  </div>
+
+  <div class="banner">
+    <h1>Nacidos para la aventura</h1>
+    <p>Mochilas, cantimploras, navajas, hamacas y bolsos impermeables diseñados para quienes encuentran su hogar en la montaña, el río y el camino</p>
+    <span class="banner-badge">🏔️ Hecho en Colombia</span>
+  </div>
+
+  <div class="about-bar">
+    <strong>¿Quiénes somos?</strong> — Tribu Salvaje nació en Manizales para los exploradores que llevan la montaña en la sangre. Somos una marca de accesorios outdoor diseñados y producidos en Colombia, pensados para resistir lluvia, sol, frío y todos los caminos que te lleven más allá del confort. Trabajamos con materiales técnicos seleccionados y proveedores locales que comparten nuestra filosofía: equipos honestos, hechos para durar y para que cada aventura sea memorable.
+  </div>
+
+  <div class="why-section">
+    <div class="why-title">¿Por qué elegirnos?</div>
+    <div class="why-grid">
+      <div class="why-item">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#4a5a32" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 22 20 2 20 12 2"/><polyline points="8 14 12 9 16 14"/></svg>
+        </div>
+        <div class="why-label">Materiales técnicos</div>
+        <div class="why-desc">Telas impermeables, costuras reforzadas y herrajes resistentes para condiciones extremas</div>
+      </div>
+      <div class="why-item">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#4a5a32" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-9 1.96 2.5H17V9.5h2.5zm-1.5 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/></svg>
+        </div>
+        <div class="why-label">Envíos a todo Colombia</div>
+        <div class="why-desc">Despachamos desde Manizales con seguimiento para que tu equipo llegue a tiempo a tu próximo destino</div>
+      </div>
+      <div class="why-item">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#4a5a32" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <div class="why-label">Diseño funcional</div>
+        <div class="why-desc">Cada accesorio está pensado al detalle: compartimentos, ergonomía, peso optimizado para la aventura</div>
+      </div>
+      <div class="why-item">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#4a5a32" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.75l6 6 9-13.5"/></svg>
+        </div>
+        <div class="why-label">Hecho para durar</div>
+        <div class="why-desc">Productos garantizados que acompañarán tus aventuras durante años, no temporadas</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-title" id="productos">Nuestros productos</div>
+  <div class="product-grid">
+    <div class="product-card"><div class="product-img"><img src="https://images.unsplash.com/photo-1622260614153-03223fb72052?w=400&q=70" alt="Mochila outdoor 40L" loading="lazy"></div><div class="product-info"><div class="product-name">Mochila Trek 40L</div><div class="product-price">$285.000 COP</div><span class="limited-badge">EDICIÓN AVENTURERO</span></div></div>
+    <div class="product-card"><div class="product-img"><img src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=400&q=70" alt="Cantimplora termo de acero" loading="lazy"></div><div class="product-info"><div class="product-name">Cantimplora 1L Acero</div><div class="product-price">$95.000 COP</div><span class="limited-badge">EDICIÓN AVENTURERO</span></div></div>
+    <div class="product-card"><div class="product-img"><img src="https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?w=400&q=70" alt="Navaja multiuso de bolsillo" loading="lazy"></div><div class="product-info"><div class="product-name">Navaja Multiuso</div><div class="product-price">$78.000 COP</div><span class="limited-badge">EDICIÓN AVENTURERO</span></div></div>
+    <div class="product-card"><div class="product-img"><img src="https://images.unsplash.com/photo-1493130052181-cc9d4ce99161?w=400&q=70" alt="Hamaca de viaje" loading="lazy"></div><div class="product-info"><div class="product-name">Hamaca Trek</div><div class="product-price">$125.000 COP</div><span class="limited-badge">EDICIÓN AVENTURERO</span></div></div>
+    <div class="product-card"><div class="product-img"><img src="https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?w=400&q=70" alt="Bolso impermeable seco" loading="lazy"></div><div class="product-info"><div class="product-name">Dry Bag 20L</div><div class="product-price">$98.000 COP</div><span class="limited-badge">EDICIÓN AVENTURERO</span></div></div>
+    <div class="product-card"><div class="product-img"><img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=400&q=70" alt="Kit completo Tribu Salvaje" loading="lazy"></div><div class="product-info"><div class="product-name">Kit Aventura Salvaje</div><div class="product-price">$485.000 COP</div><span class="limited-badge">EDICIÓN AVENTURERO</span></div></div>
+  </div>
+
+  <div class="btn-wrap">
+    <button class="btn-contact" onclick="window.open('https://wa.me/573148269043','_blank')">🏕️ Hacer un pedido</button>
+  </div>
+
+  <div class="section-title">La tribu en acción</div>
+  <div class="gallery-section">
+    <div class="gallery-grid">
+      <img src="https://images.unsplash.com/photo-1533873984035-25970ab07461?w=300&q=70" alt="Aventura en uso" loading="lazy">
+      <img src="https://images.unsplash.com/photo-1530541930197-ff16ac917b0e?w=300&q=70" alt="Aventura en uso" loading="lazy">
+      <img src="https://images.unsplash.com/photo-1517824806704-9040b037703b?w=300&q=70" alt="Aventura en uso" loading="lazy">
+      <img src="https://images.unsplash.com/photo-1496545672447-f699b503d270?w=300&q=70" alt="Aventura en uso" loading="lazy">
+    </div>
+  </div>
+
+  <div class="reviews-section">
+    <div class="reviews-title">Lo que dicen nuestros aventureros</div>
+    <div class="reviews-grid">
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"La mochila Trek 40L es increíble. La llevé al Nevado del Ruiz y resistió todo: lluvia, granizo, frío extremo. Costuras impecables y comodísima."</div><div class="review-author">— Daniel R., Bogotá</div></div>
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"El Kit Aventura Salvaje es completísimo. Me sirvió para mi trekking en el Cocuy y todo funcionó perfecto. La cantimplora mantiene el agua fría todo el día."</div><div class="review-author">— Camila P., Medellín</div></div>
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"La navaja multiuso es de muy buena calidad y la hamaca pesa nada en la mochila. Tribu Salvaje sabe lo que hace. Volveré a comprar sin duda."</div><div class="review-author">— Andrés L., Cali</div></div>
+    </div>
+  </div>
+
+  <div class="section-title" id="contacto">Contáctanos</div>
+  <div class="form-section">
+    <div class="form-box">
+      <div class="form-title">¿Listo para la próxima aventura?</div>
+      <div class="form-sub">Escríbenos y te respondemos a la mayor brevedad.</div>
+      <div class="form-row"><label>Nombre</label><input type="text" placeholder="Tu nombre completo"></div>
+      <div class="form-row"><label>Teléfono</label><input type="tel" placeholder="Tu número de WhatsApp"></div>
+      <div class="form-row"><label>Mensaje</label><textarea placeholder="¿Qué equipo necesitas?"></textarea></div>
+      <button class="btn-form" onclick="window.open('https://wa.me/573148269043','_blank')">🏕️ Enviar mensaje por WhatsApp</button>
+    </div>
+  </div>
+
+  <div class="policy-section">
+    <div class="policy-title">Política de devoluciones</div>
+    <div class="policy-text">
+      <p><strong>Cambios y devoluciones:</strong> En Tribu Salvaje aceptamos cambios o devoluciones dentro de los <strong>5 días calendario</strong> siguientes a la recepción del producto, siempre que el artículo esté sin uso, en perfectas condiciones y con su empaque original.</p>
+      <p><strong>Productos personalizados:</strong> Las mochilas o accesorios con bordados, grabados o personalizaciones especiales no admiten devolución, salvo defecto comprobable de fabricación.</p>
+      <p><strong>Garantía:</strong> Nuestros productos tienen garantía contra defectos de fabricación. Si detectas algún problema con costuras, herrajes o materiales, contáctanos para gestionar el cambio.</p>
+      <p><strong>Proceso:</strong> Para iniciar un cambio o devolución, comunícate con nosotros a través de WhatsApp al <strong>+57 314 826 9043</strong> o escríbenos a <strong>contacto@tribusalvaje.com</strong> indicando tu número de pedido y el motivo.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div><strong>TRIBU SALVAJE</strong></div>
+    <div class="footer-info" style="margin-top: 10px;">Carrera 23 # 62-48, Manizales, Caldas 170002, Colombia</div>
+    <div class="footer-info">+57 314 826 9043</div>
+    <div class="footer-info"><a href="mailto:contacto@tribusalvaje.com">contacto@tribusalvaje.com</a></div>
+    <div class="footer-links">
+      <a href="privacy.html">Política de privacidad</a>
+      <a href="terms.html">Términos y condiciones</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+    <div class="footer-info" style="margin-top: 16px; font-size: 10px;">© 2026 Tribu Salvaje · Todos los derechos reservados</div>
+  </div>
+
+  <a class="whatsapp-btn" href="https://wa.me/573148269043" target="_blank" title="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+      <path d="M16 1C7.716 1 1 7.716 1 16c0 2.628.68 5.1 1.864 7.254L1 31l7.95-1.832A14.94 14.94 0 0 0 16 31c8.284 0 15-6.716 15-15S24.284 1 16 1zm0 27.2a12.16 12.16 0 0 1-6.2-1.696l-.444-.264-4.716 1.088 1.12-4.584-.29-.472A12.2 12.2 0 1 1 16 28.2zm6.692-9.14c-.368-.184-2.176-1.072-2.512-1.196-.336-.12-.58-.184-.824.184-.244.368-.944 1.196-1.156 1.44-.212.248-.424.276-.792.092-.368-.184-1.556-.572-2.964-1.824-1.096-.976-1.836-2.18-2.048-2.548-.216-.368-.024-.568.16-.752.164-.164.368-.428.552-.64.184-.216.244-.368.368-.612.12-.244.06-.46-.028-.644-.092-.184-.824-1.988-1.128-2.72-.296-.712-.6-.616-.824-.628l-.704-.012c-.244 0-.64.092-.976.46s-1.28 1.252-1.28 3.052.1312 3.54 3.692 6.116c.456.312 2.22 1.484 4.332 2.084.756.22 1.344.352 1.804.452.756.16 1.444.136 1.988.084.608-.064 1.872-.764 2.136-1.504.264-.74.264-1.376.184-1.508-.076-.132-.32-.212-.688-.396z"/>
+    </svg>
+  </a>
+
+</body>
+</html>
